@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Sondage } from './model/sondage';
 
 @Injectable({
   providedIn: 'root'
@@ -6,4 +7,9 @@ import { Injectable } from '@angular/core';
 export class ApiService {
 
   constructor() { }
+/*
+  getSondages(): Observable<Sondage[]> {
+    const sondage = of(Sondage);
+    return sondage;
+  }*/
 }

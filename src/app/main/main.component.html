@@ -1,3 +1,8 @@
-<p>main works!</p>
-
-<h1>JE MARCHE</h1>
+<ul class="sondage">
+    <li *ngFor="let sondage of sondages">
+        <p>{{sondage.titre}}</p>
+        <p>{{sondage.date}}</p>
+        <p>{{sondage.description}}</p>
+        <p>{{sondage.auteur}}</p>
+    </li>
+</ul>
