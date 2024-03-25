@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { LayoutComponent } from '../layout/layout.component';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [],
+  imports: [LayoutComponent],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })
